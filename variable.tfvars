@@ -1,0 +1,1 @@
+bucket_names = ["jiaxu-s3-bucket","jiaxu2-s3-bucket","jiaxu3-s3-bucket"]
