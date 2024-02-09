@@ -4,6 +4,13 @@ resource "aws_s3_bucket" "count1" {
   count = 2
 
   bucket = "sameeksha-aws-bucket-${count.index}"
+
+  
+  tags = {
+    Environment = "Production"
+    Project     = "ProjectABC"
+    CostCenter  = "12345"
+  }
   
 }
 #s3 resources using the simple for_each
